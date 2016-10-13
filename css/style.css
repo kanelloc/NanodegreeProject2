@@ -1,0 +1,54 @@
+html {
+    position: relative;
+}
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+h2 {
+    color: #02b3e4;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+
+a {
+    color: #2d3c49;
+
+}
+
+.logo {
+    margin-left: 5%
+}
+
+.project-img {
+    width: 350px;
+    height: 150px;
+}
+
+/*media q. for responsive layout under 991px */
+@media screen and (max-width: 991px) {
+
+    .responsive-col-4 {
+        margin: 5px
+    }
+
+    .responsive-img-center {
+        margin: 0 auto;
+    }
+
+    .center-name {
+        text-align: center;
+    }
+}
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="container">
+        <!--Top row for the name and the logo -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive responsive-img-center logo" src="img/logo.png" alt="Portfolio logo">
+            </div>
+            <div class="col-md-6 text-uppercase text-right">
+                <h1 class="center-name">C. Kanellopoulos</h1>
+                <h4 class="center-name">Web developer</h4>
+            </div>
+        </div>
+
+        <!--Middle section for the seperator and img -->
+        <div class="col-md-12">
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <img class="img-responsive" src="img/programming2.jpg" alt="programming image">
+        </div>
+
+        <!--Bottom section for feature work -->
+        <div class="col-md-12">
+            <h2 class="center-name">Feature Work</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 responsive-col-4">
+                <a data-target="#myModal1" data-toggle="modal">
+                    <img class="img-responsive project-img responsive-img-center" src="img/python2.png" alt="python image">
+                </a>
+                <a href="https://github.com/kanelloc/NanodegreeProject1">
+                    <h4>Web Movie site</h4>
+                </a>
+            </div>
+            <div class="col-md-4 responsive-col-4">
+                <a data-target="#myModal2" data-toggle="modal">
+                    <img class="img-responsive project-img responsive-img-center" src="img/laravel.png" alt="laravel image">
+                </a>
+                <a href="https://github.com/kanelloc/Forecast-website">
+                    <h4>Forecast website with Laravel </h4>
+                </a>
+            </div>
+            <div class="col-md-4 responsive-col-4">
+                <a data-target="#myModal3" data-toggle="modal">
+                    <img class="img-responsive project-img responsive-img-center" src="img/cpp.png" alt="cpp image">
+                </a>
+                <a href="https://github.com/kanelloc/Ship-Simulation">
+                    <h4>C++ Ship simulation </h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal content-->
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Web movie site</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is the first project from Udacity's nanodegree.It contains a movie web site</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Forecast website with Laravel</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is a forecast website using laravel framework</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">C++ Ship simulation</h4>
+                </div>
+                <div class="modal-body">
+                    <p>ShIp simulation project using C++.THis is a part from a college's course</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--scripts js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
